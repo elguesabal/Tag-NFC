@@ -1,0 +1,40 @@
+body {
+	display: flex;
+	height: 100vh;
+	margin: 0;
+}
+
+p {
+	position: absolute;
+	text-align: center;
+	top: 20vh;
+	width: 100vw;
+}
+
+#container {
+	position: absolute;
+	text-align: center;
+	width: 100vw;
+}
+
+.botao {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5vh;
+	width: 20vw;
+	top: 35vh;
+	cursor: pointer;
+}
+
+#sim {
+	background-color: green;
+	left: 25vw;
+	z-index: 1;
+}
+
+#nao {
+	background-color: red;
+	left: 55vw;
+}
