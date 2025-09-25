@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "sharp": "^0.34.4"
   },
   "name": "tag-nfc",
   "version": "1.0.0",
