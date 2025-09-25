@@ -1,9 +1,10 @@
 const gallery = document.getElementById("gallery");
 const loader = document.getElementById("loader");
 let current = 1;
-const max = 49;
+const max = 34;
 const batchSize = 1;
-const baseUrl = "https://jailane.vercel.app//2/public/";
+// const baseUrl = "http://192.168.0.100:3000/2/public/";
+const baseUrl = "https://jailane.vercel.app/2/public/";
 let loading = false;
 let finished = false;
 
