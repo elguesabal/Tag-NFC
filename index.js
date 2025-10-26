@@ -29,7 +29,9 @@ app.get("/:diretorio/public/:arquivo", async (req, res) => {
 });
 
 app.get("/nfc", (req, res) => {
-    res.send("funcionou");
+    // res.send("funcionou");
+    // res.status(200).send({ data: "teste" });
+    res.status(200).send({ redirect: "https://www.google.com" });
 });
 
 app.listen(process.env.PORT || 3000, () => console.log("Servidor rodando"));
